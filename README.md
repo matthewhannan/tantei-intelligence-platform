@@ -35,7 +35,7 @@
 
 ### The Opportunity
 
-Japan's private investigation industry generates approximately **¥86 billion (~$573M USD)** annually across **6,600+ registered detective agencies** (令和3年 / 2021 police statistics). The industry is dominated by infidelity (浮気/uwaki) investigations, which account for an estimated 70-80% of all cases. Despite this substantial market, **there is zero purpose-built Japanese-language investigative software**.
+Japan's private investigation industry generates approximately **¥86 billion (~$573M USD)** annually across **7,027+ registered detective agencies** (令和5年 / 2023 NPA year-end statistics, up from 6,379 in 2020). Infidelity (浮気/uwaki) investigations account for an estimated **70-80% of all cases by volume** but only ~4.3% of revenue (~¥37 billion from individuals). Corporate investigations (background checks, due diligence) dominate revenue at **~87% (~¥752 billion)**. This revenue split is a critical product insight — our platform must serve both segments. Despite this substantial market, **there is zero purpose-built Japanese-language investigative software**.
 
 Every existing investigative intelligence platform — Maltego, Skopenow, ShadowDragon, CROSStrax — is English-first with no Japanese data source integration, no Japanese UI, and no understanding of Japanese investigative workflows. Japanese PIs conduct investigations using cameras, GPS trackers, vehicles, and human skill, then compile handwritten or manually typed 調査報告書 (investigation reports). This creates massive inefficiency:
 
@@ -84,17 +84,18 @@ Every existing investigative intelligence platform — Maltego, Skopenow, Shadow
 | Metric | Value | Source |
 |--------|-------|--------|
 | Total market revenue | ¥85.9 billion (~$573M) | 2016 Economic Census |
-| Registered agencies (2021) | 6,600+ | NPA statistics |
+| Registered agencies (2023) | **7,027** | NPA 令和5年末 statistics |
+| Registered agencies (2020) | 6,379 | NPA statistics |
 | Registered agencies (2016) | 5,691 | Economic Census |
 | Average revenue per agency | ¥15.11 million ($101K) | Census calculation |
 | Revenue from individuals | ¥3.7 billion | Census breakdown |
 | Revenue from corporations | ¥75.2 billion | Census breakdown |
 | Other revenue | ¥7.0 billion | Census breakdown |
-| Industry growth (2013-2021) | +1,000 agencies (~18%) | NPA statistics |
+| Industry growth (2013-2023) | +1,357 agencies (~24%) | NPA statistics |
 
 **Key insight:** Corporate clients (法人) account for 87.5% of industry revenue. This means B2B tooling has a natural buyer alignment — agencies already think in terms of business efficiency, not consumer convenience.
 
-**Market size validation:** The plan's original estimate of "$350-700M/year" is confirmed. At ¥150/$, the 2016 census figure of ¥85.9 billion = $573M, squarely within the estimated range. Given industry growth since 2016 (6,600+ agencies in 2021 vs 5,691 in 2016), current market size likely exceeds ¥90 billion.
+**Market size validation:** The plan's original estimate of "$350-700M/year" is confirmed. At ¥150/$, the 2016 census figure of ¥85.9 billion = $573M, squarely within the estimated range. Given industry growth since 2016 (7,027 agencies in 2023 vs 5,691 in 2016, a 23.5% increase), current market size likely exceeds ¥100 billion.
 
 ### 2.2 Investigation Types & Pricing
 
@@ -130,8 +131,10 @@ Every existing investigative intelligence platform — Maltego, Skopenow, Shadow
 |--------|-------|--------|
 | Annual divorces in Japan | ~180,000-187,000 pairs | 厚生労働省 人口動態統計 |
 | Divorce rate | 1.52 per 1,000 (2023) | Statista |
-| Isharyou (慰謝料) average for infidelity | ¥1,000,000-3,000,000 | Legal practice averages |
-| Isharyou maximum (court-awarded) | ¥5,000,000+ | Exceptional cases |
+| Isharyou (慰謝料) average (310 court cases analyzed) | **¥1,580,000** ($10,500) | en-furin-isharyou.jp |
+| Isharyou range (leading to divorce) | ¥500,000-3,000,000 (avg ¥1,620,000) | Court case analysis |
+| Isharyou range (reconciliation) | ¥100,000-4,000,000 (avg ¥1,470,000) | Court case analysis |
+| ~80% of awards fall in range | ¥1,000,000-2,000,000 | Court case analysis |
 | % of divorces involving infidelity claims | ~25-30% | Legal industry estimates |
 
 **Investigation → legal pipeline:** Client suspects infidelity → hires detective agency → agency produces 調査報告書 with photographic evidence → client takes report to lawyer → lawyer files isharyou claim → court awards damages based on evidence quality. **The quality and completeness of the investigation report directly determines the financial outcome.** This is why our Evidence Studio module is so valuable — it automates production of court-grade reports.
