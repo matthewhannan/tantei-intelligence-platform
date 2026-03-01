@@ -405,9 +405,10 @@ X API access is now available as pay-per-use (launched February 6, 2026). The Ba
 **2. 官報 (National Gazette / Kanpou)**
 | Field | Detail |
 |-------|--------|
-| URL | https://kanpou.npb.go.jp/ |
-| Online access | Free for last 30 days; paid archive (インターネット版官報) |
-| API | No official API; web scraping of search.npb.go.jp possible |
+| URL | https://www.kanpo.go.jp/ |
+| Online access | Free for last **90 days** (PDF viewer); paid full-text search: **¥2,200/month** (first month free) via 官報情報検索サービス |
+| API | No official API; paid search at search.npb.go.jp; unofficial free search at kanpoo.jp |
+| Digitalization | Electronic version became **authoritative** (replacing paper) as of April 1, 2025; published daily at 8:30 AM |
 | Relevant notice types | Bankruptcy (破産), dissolution (解散), name changes, civil law notices (相続限定承認) |
 | Use case | Discover financial distress, corporate changes, legal proceedings |
 
@@ -421,7 +422,7 @@ X API access is now available as pay-per-use (launched February 6, 2026). The Ba
 | Field | Detail |
 |-------|--------|
 | URL | https://www1.touki.or.jp/ |
-| Cost | ¥332-¥397 per search (property/corporate registry) |
+| Cost | ¥331 per record (property/corporate registry); ¥141 for owner info only; ¥361 for maps/drawings |
 | API | Currently web-only; Digital Agency (デジタル庁) developing API for March 2026 Base Registry |
 | Data | Property ownership, corporate officers, registered addresses |
 | Use case | Verify property ownership, identify corporate officers, find registered addresses |
@@ -431,8 +432,8 @@ X API access is now available as pay-per-use (launched February 6, 2026). The Ba
 **4. Google Maps Places API**
 | Field | Detail |
 |-------|--------|
-| Reviews accessible | Yes, via Places API (Place Details endpoint) |
-| Pricing | Enterprise + Atmosphere SKU (reviews field) |
+| Reviews accessible | Yes, via Places API (Place Details endpoint, up to 5 reviews per place) |
+| Pricing | Enterprise + Atmosphere SKU: $25/1,000 requests at base tier (reviews field); free caps: 1,000/mo |
 | Japan restrictions | None for Places API (transit routing is restricted, not places) |
 | Terms of service | Prohibit scraping; must use official API. Cannot cache/export reviews. |
 | Use case | Find target's public reviews (restaurant reviews, hotel reviews, location history) |
@@ -2031,7 +2032,7 @@ Sources: DataReportal Digital 2025 Japan, MIC Information and Communications Whi
 
 ### Japanese Government Data APIs
 21. 法人番号公表システム Web-API, https://www.houjin-bangou.nta.go.jp/webapi/
-22. インターネット版官報, https://kanpou.npb.go.jp/
+22. 官報 (Official Gazette), https://www.kanpo.go.jp/
 23. 登記情報提供サービス, https://www1.touki.or.jp/
 24. デジタル庁 ベースレジストリ, https://www.digital.go.jp/en/policies/base_registry
 
