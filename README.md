@@ -1574,19 +1574,38 @@ Facial data is classified as 個人識別符号 (individual identification codes
 - Strengthened cross-border transfer rules
 - Introduced pseudonymized data framework
 
-**2025 proposed amendments (NOT YET ENACTED as of March 2026):**
+**APPI Amendment — Current Status (March 2026):**
 
-The Personal Information Protection Commission (PPC) published an interim summary in 2024 proposing:
-- **Administrative monetary penalties** (行政上の課徴金) — PPC examining frameworks but no consensus reached
-- **Expanded biometric data protections** — strengthening rights to request suspension/deletion of biometric data
-- **Statistical/AI processing exemptions** — processing without consent where rights unlikely infringed
-- **Collective redress schemes** — under consideration
+The PPC's "Three-Year Review" process has progressed significantly:
+- **June 27, 2024:** PPC published interim summary (中間整理) with public comment period
+- **January 9, 2026:** PPC published formal **制度改正方針** (System Reform Policy) with 12 specific reform items under 4 pillars
+- **January 23, 2026:** Regular Diet session opened; amendment bill expected to be submitted during this session (runs through June 21, 2026)
+- **As of March 2026:** Bill has **NOT yet passed** the Diet. If enacted, effective ~2027-2028.
 
-**Timeline:** Draft legislation expected to be published in 2025, with potential enactment in 2027.
+**The 4 Reform Pillars:**
 
-**Impact on our product:** The proposed biometric data provisions could require us to honor individual deletion requests for face embeddings. Our architecture already supports this (per-case data with deletion capability). The administrative fines provision increases the penalty risk, making our robust compliance architecture a competitive advantage ("we keep you compliant").
+1. **Data Utilization Promotion:** Statistical processing (including for AI) exempt from consent, even for sensitive personal info
+2. **Risk-Appropriate Regulation — CRITICAL FOR OUR PRODUCT:**
+   - **NEW specific rules for facial recognition data (顔認証データ等):**
+     - Obligation to publicize/notify about facial recognition data handling
+     - Relaxed grounds for individuals to request cessation of use (lower threshold)
+     - **Prohibition on providing facial recognition data through opt-out scheme**
+   - Rationale: biometric data can be acquired without awareness, is uniquely identifying, and is permanent
+   - **Strengthened obligations on entrusted parties (委託先)** — directly affects our role
+   - Children's data: strengthened protections for under-16
+3. **Improper Use Prevention:** Stronger regulation of data enabling contact/location of individuals
+4. **Enforcement Effectiveness:**
+   - **Administrative fines (課徴金制度):** Fine = economic benefit derived from violation. Applies when: (a) 1,000+ data subjects affected, (b) serious rights infringement, (c) lack of reasonable care
+   - Enhanced criminal penalties
+   - **NOT included:** Collective redress/class action (団体訴訟制度) was considered but dropped
 
-Source: [IAPP Japan DPA Summary](https://iapp.org/news/a/japan-s-dpa-publishes-interim-summary-of-amendments-to-data-protection-regulations), [Clifford Chance Analysis](https://www.cliffordchance.com/insights/resources/blogs/talking-tech/en/articles/2024/06/amendments-to-the-act-on-the-protection-of-personal-information-set-for-2025.html)
+**Impact on our product:**
+- Face matching module will need a publicized handling policy (顔認証データ取扱方針) — prepare this proactively
+- Must support individual cessation-of-use requests for face embeddings at a lower threshold than current law — our per-case architecture with deletion capability already supports this
+- As 委託先, strengthened supervision obligations increase our compliance burden but make our robust architecture a **sales advantage** ("we keep you compliant with the new law")
+- Administrative fines make non-compliance financially punitive — agencies will need compliant tools, not manual processes
+
+Sources: [IAPP Japan DPA Summary](https://iapp.org/news/a/japan-s-dpa-publishes-interim-summary-of-amendments-to-data-protection-regulations), [Clifford Chance Analysis](https://www.cliffordchance.com/insights/resources/blogs/talking-tech/en/articles/2024/06/amendments-to-the-act-on-the-protection-of-personal-information-set-for-2025.html), [Business Lawyers 令和8年改正](https://www.businesslawyers.jp/articles/1521), [Nikkei 課徴金改正案](https://www.nikkei.com/article/DGXZQOUA097VW0Z00C26A1000000/)
 
 ### 9.3 Detective Business Act (探偵業法)
 
@@ -1860,7 +1879,7 @@ If traction justifies, establish a Japanese subsidiary:
 | Risk | Probability | Impact | Mitigation | Residual Risk |
 |------|------------|--------|------------|---------------|
 | Agencies don't trust foreign software vendor | 30% | High | Japanese GK in Year 2; JISA partnership; prestigious legal opinion | Medium |
-| APPI amendments restrict biometric tools | 15% | Medium | Data minimization by design; face matching is optional module; core value is case management | Low |
+| APPI amendments restrict biometric tools | **60%** | Medium | Amendment bill expected in current Diet session (through June 2026). New facial recognition rules require publicized handling policy + cessation-of-use support — our architecture already handles this. Face matching is optional module; core value is case management. **This is actually an opportunity:** agencies will need compliant tools. | Low-Medium |
 | Agencies prefer manual processes | 25% | Medium | ROI-driven sales: prove 2-3x efficiency gain in pilot; target tech-forward agencies first | Medium |
 | Instagram/Twitter scraping gets harder or more expensive | 20% | Low | Core value is case management + evidence packaging; OSINT is additive, not essential | Low |
 | Competitor enters market | 10% | Medium | First-mover advantage; deep Japanese market knowledge; enterprise relationships | Low |
