@@ -1824,12 +1824,12 @@ If traction justifies, establish a Japanese subsidiary:
 
 | Competitor | Pricing | Features | Japanese Support | Why We Win |
 |------------|---------|----------|-----------------|-----------|
-| **Maltego** | $5K-6.6K/yr (individual license) | Link analysis, 120+ data source transforms | No Japanese UI, no Japanese data sources | Japanese UI, Japanese data sources, investigation workflow, evidence packaging |
+| **Maltego** | EUR 3K-7.5K/yr (~$3.2K-$8K; credit-based "Maltego One" model) | Link analysis, 120+ data source transforms, Maltego Search/Monitor/Evidence | No Japanese UI, no Japanese data sources (DeepL translation transforms available) | Japanese UI, Japanese data sources, investigation workflow, evidence packaging |
 | **Skopenow** | Est. $10K-25K/yr (enterprise-only; $6.6M revenue / 1,500 customers) | Automated person OSINT, social media analysis | No Japanese UI, US-centric data | Japanese social media integration, case management, court evidence formatting |
 | **ShadowDragon** | £5,500-£69,500/user/year (~$7K-$88K) | SocialNet + Horizon: 220+ data sources, social media mapping, alias resolution | Multi-language OCR available, but no Japanese market focus | Purpose-built for Japanese PI workflow, 10x lower price point, case management included |
 | **CROSStrax** | $35-$105/month | PI case management: GPS tracking, video, billing, reports | English only | Japanese UI, Japanese court evidence format, OSINT integration, face matching |
-| **PimEyes** | $14.99-$299.99/month (consumer); API custom | Face search engine, web-scale face database | Multi-language website (may include Japanese interface) | Asian face optimization, integrated with investigation workflow, not standalone search |
-| **FaceCheck.id** | ~$0.30/search (API); consumer plans available | Face search against social media/web | No Japanese-specific features | Integrated workflow, Asian face optimization, case management context |
+| **PimEyes** | $29.99-$299.99/month (consumer); API via developer tier ($100 free credits) | Face search engine, web-scale face database | No Japanese UI; image-based so language-agnostic for core function | Asian face optimization, integrated with investigation workflow, not standalone search |
+| **FaceCheck.id** | ~$0.30/search ($0.18 at volume); **crypto-only payments** | Face search against social media/web | No Japanese UI; crypto payment is barrier for Japanese corporate buyers | Integrated workflow, Asian face optimization, standard payment methods |
 
 **Sources:**
 - Maltego: https://www.maltego.com/pricing/
