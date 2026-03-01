@@ -355,6 +355,13 @@ X API access is now available as pay-per-use (launched February 6, 2026). The Ba
 - New official repository: CVLFace, supporting ViT architectures
 - **Recommended for production deployment** due to cleaner licensing
 
+**Alternative: AuraFace (fal.ai, 2025)**
+- Fully commercially-licensed ArcFace alternative: https://huggingface.co/fal/AuraFace-v1
+- 99%+ accuracy on standard benchmarks, ONNX-ready
+- Created specifically to solve InsightFace's non-commercial model weight restriction
+- **Caveat:** Developers acknowledge limited ethnic diversity in training data — may underperform on Asian faces without fine-tuning
+- Consider as drop-in replacement if AdaFace fine-tuning proves too costly
+
 **Training data: FaceID-6M (2025)**
 - Large-scale open-source dataset: 6 million high-quality face-image pairs (ArXiv March 2025)
 - Addresses Asian face underrepresentation (CASIA-WebFace contains only 2.6% Asian faces)
@@ -2006,6 +2013,7 @@ Sources: DataReportal Digital 2025 Japan, MIC Information and Communications Whi
 8. X API Pay-Per-Use Announcement, https://devcommunity.x.com/t/announcing-the-launch-of-x-api-pay-per-use-pricing/256476
 9. InsightFace GitHub, https://github.com/deepinsight/insightface
 10. AdaFace: Quality Adaptive Margin for Face Recognition (CVPR 2022), https://github.com/mk-minchul/AdaFace
+11. AuraFace: Commercially-licensed ArcFace alternative (fal.ai, 2025), https://huggingface.co/fal/AuraFace-v1
 
 ### Legal
 11. 個人情報の保護に関する法律 (APPI), https://laws.e-gov.go.jp/law/415AC0000000057
