@@ -295,7 +295,7 @@ Every existing investigative intelligence platform — Maltego, Skopenow, Shadow
 
 **X/Twitter Monitoring:**
 
-X API access is now available as pay-per-use (launched February 6, 2026). The Basic tier ($200/month) remains available alongside the new consumption-based model.
+X API access is now available as pay-per-use (launched February 6, 2026). The Basic tier ($200/month) remains available alongside the new consumption-based model. **Important cost note:** Pay-per-use is only cheaper for light usage (<40K-50K combined monthly operations). At equivalent Basic tier volume (15K post reads + 50K user lookups), pay-per-use would cost ~$1,325/month vs $200 fixed. **Recommendation: Use the Basic tier ($200/mo) for predictable costs.**
 
 | Operation | Cost | Notes |
 |-----------|------|-------|
