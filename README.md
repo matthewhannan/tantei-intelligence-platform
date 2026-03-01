@@ -260,13 +260,34 @@ Every existing investigative intelligence platform — Maltego, Skopenow, Shadow
 | Key offices | Tokyo HQ, Shinjuku, Yokohama, Chiba, Saitama, Shizuoka, Nagoya, Osaka, Kobe, Sapporo, Fukuoka |
 | Notable | Sends real-time LINE updates during surveillance |
 
-#### 8-10. Additional Targets
+#### 8. あい探偵 (Ai Detective / AI Group)
+| Field | Detail |
+|-------|--------|
+| Website | https://www.ai-chosa.com/ (LIVE ✓) |
+| Offices | **84-88 locations** nationwide (many are dispatch/activity points, not full offices) |
+| HQ | Osaka |
+| Model | Ultra-low-cost: ¥2,500/hour |
+| Enterprise fit | High — second-largest by location count after Galu |
+| Key metrics | 100,000+ consultations, recommended by 20+ law firms |
 
-| Agency | Offices | Website | Notes |
-|--------|---------|---------|-------|
-| 総合探偵社TS | 8+ | https://www.tanteisha-ts.co.jp/ | Verify |
-| 響・Agent | 5+ | https://hibiki-tantei.com/ | Verify |
-| ISM調査事務所 | 3+ | https://ism-tantei.com/ | Verify |
+#### 9. 株式会社ピ・アイ・オ / PIO (Private Investigator Office)
+| Field | Detail |
+|-------|--------|
+| Website | https://www.pio.co.jp/ (LIVE ✓) |
+| Offices | **6 offices** (Tokyo/Kanda, Yokohama, Nagoya, Osaka, Osaka-Kita, Hiroshima) |
+| HQ | Tokyo |
+| Founded | 1972 (one of the oldest in Japan) |
+| Enterprise fit | Moderate — smaller but deeply embedded in legal system |
+| Key metrics | 12,000+ annual cases, affiliated with bar association cooperatives in 24 prefectures |
+| Notable | Known as the "lawyers' detective agency" — court evidence specialization aligns perfectly with our Evidence Studio module |
+
+#### 10. RCL探偵事務所 (RCL Detective Agency)
+| Field | Detail |
+|-------|--------|
+| Website | https://rcl-tantei.com/ (LIVE ✓) |
+| Offices | **13 offices** (Minato-ku HQ + Mita, Nihonbashi, Shinjuku, Ikebukuro, Tachikawa, Yokohama, Chiba, Saitama, Osaka, Sendai, Fukuoka, Sapporo) |
+| HQ | Tokyo, Minato-ku |
+| Enterprise fit | Good — similar scale to Rabbit, three-time Rakuten Research award winner |
 
 ### 3.2 Buyer Persona
 
